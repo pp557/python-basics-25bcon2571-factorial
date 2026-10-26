@@ -2,38 +2,33 @@
 
 ## Project Description
 
-This project contains a Python program that calculates the factorial of a given number.
+This project contains a Python program that calculates the factorial of an integer entered by the user.
 
-The program takes a number as input from the user and calculates its factorial using a `for` loop.
+The program uses a `for` loop to calculate the factorial and displays the result.
 
 ## Features
 
-* Takes a number as input.
-* Calculates the factorial of the number.
-* Displays the calculated factorial.
-* Simple and beginner-friendly Python program.
+- Takes an integer as input.
+- Calculates the factorial using a `for` loop.
+- Displays the calculated result.
+- Uses basic Python concepts.
 
-## Installation
+## Requirements
 
-No special installation is required.
+- Python 3.x
 
-Make sure Python 3 is installed on your computer.
+## Usage
 
-You can run the program using:
+1. Make sure Python 3 is installed.
+2. Save the program as `factorial.py`.
+3. Open a terminal in the folder containing the file.
+4. Run the program using:
 
 ```bash
 python factorial.py
 ```
 
-## Requirements
-
-* Python 3.x
-
-## Usage
-
-1. Run the `factorial.py` program.
-2. Enter a number when prompted.
-3. The program calculates and displays its factorial.
+5. Enter an integer when prompted.
 
 ## Example
 
@@ -42,7 +37,11 @@ Enter a number: 5
 Factorial of 5 is 120
 ```
 
+## Notes
+
+This program is intended for integer input. It does not include explicit validation for invalid input or special handling for negative numbers.
+
 ## License
 
-This project is created for educational and practical purposes.
+No license has been specified for this project.
 
